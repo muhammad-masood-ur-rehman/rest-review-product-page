@@ -70,13 +70,13 @@ export const STEPS: Step[] = [
   {
     id: 1,
     title: 'Collect',
-    description: 'Gather feedback through custom forms, widgets, and QR codes.',
+    description: 'Gather feedback through custom forms, native-language audio, and video reviews.',
     icon: <Search className="w-8 h-8" />,
   },
   {
     id: 2,
     title: 'Analyze',
-    description: 'Our engine processes data into reports that match your logo theme.',
+    description: 'Our engine analyzes reviews to extract suggestions, sentiments, and actionable metrics.',
     icon: <FileSpreadsheet className="w-8 h-8" />,
   },
   {

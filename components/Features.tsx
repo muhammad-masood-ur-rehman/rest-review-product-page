@@ -30,7 +30,7 @@ const Features: React.FC = () => {
             </p>
           </div>
           <button
-            onClick={() => window.location.href = 'https://devlutiontech.netlify.app/#home'}
+            onClick={() => window.location.href = 'https://app.waddl.site/contact-us'}
             className="self-start text-sm font-bold flex items-center gap-2 transition-colors hover:text-amber-600"
             style={{ color: COLORS.primary, marginTop: '70px' }}
           >

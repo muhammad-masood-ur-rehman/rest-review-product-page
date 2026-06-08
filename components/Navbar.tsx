@@ -25,12 +25,12 @@ const Navbar: React.FC = () => {
         <div className="hidden md:flex items-center gap-8">
           <a href="#features" className="text-sm font-semibold hover:text-amber-600 transition-colors" style={{ color: COLORS.textDark }}>Features</a>
           <a href="#how-it-works" className="text-sm font-semibold hover:text-amber-600 transition-colors" style={{ color: COLORS.textDark }}>How it Works</a>
-          <a href="#use-cases" className="text-sm font-semibold hover:text-amber-600 transition-colors" style={{ color: COLORS.textDark }}>Use Cases</a>
+          {/* <a href="#use-cases" className="text-sm font-semibold hover:text-amber-600 transition-colors" style={{ color: COLORS.textDark }}>Use Cases</a> */}
         </div>
 
         <div className="flex items-center gap-4">
           <button 
-            onClick={() => window.location.href = 'https://devlutiontech.netlify.app/#home'}
+            onClick={() => window.location.href = 'https://app.waddl.site/contact-us'}
             className="px-6 py-2.5 rounded-full text-sm font-bold text-white shadow-lg transition-transform hover:scale-105" 
             style={{ backgroundColor: COLORS.primary }}
           >
